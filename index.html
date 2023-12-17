@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert Vagabond</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid bg-light">
+          <a class="navbar-brand bg-warning" href="#">TRAVEL TIPS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active bg-warning" aria-current="page" href="#">NOMADIC LYFE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-warning" href="#">PHOTOGRAPHY</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link bg-warning" href="#" role="button" 
+                 aria-expanded="false">
+                DESTINATION
+                </a>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true"></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success bg-warning" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- Header -->
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://assets.dochipo.com/media/companies/dochipo/templates/62b4ba34f4368d611854d7bf/screenshot.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.vertical-leap.uk/wp-content/uploads/2022/09/SEO-report-travel-blog-header.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://png.pngtree.com/template/20220505/ourmid/pngtree-around-world-travel-blog-banner-poster-image_1326592.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Content -->
+     
+      
+        <h1 class="heading1">LATEST BLOG POSTS</h1>
+        <div class="row mt-4 ms-5 ">
+            <div class="col-3">
+            <div class="card" style="width: 18rem;">
+            <img src="https://www.thetimes.co.uk/travel/wp-content/uploads/sites/6/2022/05/Early-morning-pedestrians-and-shoppers-in-a-Marrakech-outdoor-market_Credit_GettyImages-1377127477.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Best Things To Do In Marrakesh, Morocco</h5>
+              <p class="card-text">Marrakesh is a beautiful city in Morocco. The “Rose City” or “Red City” offers visitors an enchanting taste of old world charm and opulence. Here are some of the best things to do in Marrakesh</p>
+              <a href="#" class="btn btn-warning">Explore Now</a>
+            </div>
+          </div>
+                       
+        </div>
+    <div class="col-3">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.thecolosseum.org/wp-content/uploads/2017/09/Colosseum-optimized.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tips For Visiting The Colosseum In Rome</h5>
+              <p class="card-text">The Colosseum one of the most popular sights in Rome, and one of the most recognizable landmarks in the entire world. Here are some useful tips for visiting the Colosseum!</p>
+              <a href="#" class="btn btn-warning">Explore Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Best things to do in Phuket</h5>
+                <p class="card-text">Phuket Island, is the capital of Thailand’s Phuket Province. In the Old Town, Thalang Road is lined with colorful 19th-century shophouses and Sino-Portuguese buildings. Built in 1903 by a wealthy tin merchant, Baan Chinpracha </p>
+                <a href="#" class="btn btn-warning">Explore Now</a>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-3">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.travelandleisure.com/thmb/_ATVgqC9S79OkQNpqzXyrUNKkUg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-annecy-river-side-ANNECYFR0523-5f65359643c84720850aff2480e37d3b.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">12 Best Things To Do In Annecy, France</h5>
+              <p class="card-text">While France is full of charming places, my favorite has to be the mountain town of Annecy. From lake cruising to farmer’s markets — here are the best things to do in Annecy, France!</p>
+              <a href="#" class="btn btn-warning">Explore Now</a>
+            </div>
+          </div>
+      </div>
+      </div>
+      <br><br>
+<button class="btn1">READ MORE TRAVEL BLOGS HERE---></button>
+<br><br>
+<hr>
+
+<!-- section -->
+<div class="section">
+    <H1 class="heading2">Reader Favorites</H1>
+    
+    <div class="travelrow">
+      <div class="box">
+       
+        
+    
+        
+          <img src="./pic1.webp" height="300px" class="himg1" alt="...">
+   
+          
+          <BR></BR>
+            <h5 class="head1-title" style="color: blueviolet; font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">The Magic Sak Yant Tattoo</h5>
+            <p class="head1-text" style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;">Over 40 people watched in silence as a monk repeatedly penetrated my flesh.</p>
+            
+          </div>
+       
+
+          <div class="box">
+
+            
+
+            
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLhvBvFGI00ZnC224PlshL_XObek6hlb8n6VsHcAh6wAmddSJuEwI3gMio7wzuWIoGuKY&usqp=CAU" height="300px" class="himg2" alt="...">
+          <BR></BR>
+            
+            
+              <h5 class="head2-title" style="color: blueviolet; font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">My 50 Best Travel Tips</h5>
+              <p class="head1-text" style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;">Here are my best tips to help you save money & become an expert traveler.</p>
+              
+             
+            </div>
+        
+
+            <div class="box">
+       
+              
+          
+              
+              <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNCkp8f9FRql8bAuhUeVDlmupFOHwpdU4DiA&usqp=CAU" height="300px" class="himg3" alt="...">
+            
+              <BR></BR>
+              
+                <h5 class="head3-title" style="color: blueviolet; font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Secrets Of The Ring Road</h5>
+                <p class="head1-text" style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;">Check out my free 7-10 day Iceland itinerary & travel guide</p>
+                
+              </div>
+            </div>
+         
+
+
+      
+</div>
+<HR></HR>
+
+<div class="adventure">
+    <H1 class="heading3">ADVENTURE TRAVEL</H1>
+    
+    <div class="Adventurerow">
+      <div class="box">
+       
+        
+    
+        
+          <img src="https://iso.500px.com/wp-content/uploads/2015/11/active.jpg" height="300px" class="himg1" alt="...">
+   
+          
+          <BR></BR>
+            <h5 class="head1-title" style="color: blueviolet; font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Camping On A Volcano</h5>
+            <p class="head1-text" style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;">Guatemala’s volcano Santiaguito erupts with an explosion every few hours.</p>
+            
+          </div>
+       
+
+          <div class="box">
+
+            
+
+            
+            <img src="https://secretcompass.com/wp-content/uploads/2015/01/trek-darien-gap-1.jpg" height="300px" class="himg2" alt="...">
+          <BR></BR>
+            
+            
+              <h5 class="head2-title" style="color: blueviolet; font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Hiking In The Darien Gap</h5>
+              <p class="head1-text" style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;">Exploring a remote & dangerous jungle region on the edge of Panama</p>
+              
+             
+            </div>
+        
+
+            <div class="box">
+       
+              
+          
+              
+              <img  src="https://guidetogreenland.com/wp-content/uploads/2021/08/Hiking-the-Arctic-Circle-Trail-in-Greenland-Guide-to-Greenland-blog-3.jpg" height="300px" class="himg3" alt="...">
+            
+              <BR></BR>
+              
+                <h5 class="head3-title" style="color: blueviolet; font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Trekking The Arctic Circle</h5>
+                <p class="head1-text" style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;">Walking over 100 miles alone for 10 days in remote Greenland.
+
+                </p>
+                
+              </div>
+            </div>
+         
+
+
+      
+</div>
+<hr>
+<div class="PHOTOGRAPHY">
+    <H1 class="heading4">TRAVEL PHOTOGRAPHY</H1>
+    
+    <div class="photorow">
+      <div class="box">
+       
+        
+    
+        
+          <img src="https://images.squarespace-cdn.com/content/v1/58d1b3ff1b631bb1893d108d/5b246600-99bd-4665-82c4-c20564896ff3/thomas-schweighofer-4cnVft2DfO8-unsplash.jpg" height="300px" class="himg1" alt="...">
+   
+          
+          <BR></BR>
+            <h5 class="head1-title" style="color: blueviolet; font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">20 Travel Photography Tips</h5>
+            <p class="head1-text" style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;">How to take better photos of your travel adventures around the world.</p>
+            
+          </div>
+       
+
+          <div class="box">
+
+            
+
+            
+            <img src="https://www.findingtheuniverse.com/wp-content/uploads/2017/01/Best-Travel-Camera.jpg" height="300px" class="himg2" alt="...">
+          <BR></BR>
+            
+            
+              <h5 class="head2-title" style="color: blueviolet; font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Best Travel Cameras</h5>
+              <p class="head1-text" style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;">Looking for a camera upgrade? Here are my top travel camera picks.</p>
+              
+             
+            </div>
+        
+
+            <div class="box">
+       
+              
+          
+              
+              <img  src="https://www.icelandaurora.com/photo-tutorials/wp-content/uploads/sites/5/2021/02/image463.jpg" height="300px" class="himg3" alt="...">
+            
+              <BR></BR>
+              
+                <h5 class="head3-title" style="color: blueviolet; font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Shooting Northern Lights</h5>
+                <p class="head1-text" style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;">Learn settings & techniques for capturing the aurora borealis.</p>
+                
+              </div>
+            </div>
+         
+
+
+      
+</div>
+<hr>
+<div class="Digital">
+    <H1 class="heading5">Digital Nomad Lifestyle</H1>
+    
+    <div class="digitalrow">
+      <div class="box">
+       
+        
+    
+        
+          <img src="https://media.digitalnomads.world/wp-content/uploads/2022/03/20112713/How-to-Become-a-Digital-Nomad.jpg" height="300px" class="himg1" alt="...">
+   
+          
+          <BR></BR>
+            <h5 class="head1-title" style="color: blueviolet; font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Becoming A Digital Nomad</h5>
+            <p class="head1-text" style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;">How to work remotely as a digital nomad traveling the world</p>
+            
+          </div>
+       
+
+          <div class="box">
+
+            
+
+            
+            <img src="https://smartblogger.com/wp-content/uploads/2022/05/C-Travel-Jobs-F.Image-900x600-1.jpeg" height="300px" class="himg2" alt="...">
+          <BR></BR>
+            
+            
+              <h5 class="head2-title" style="color: blueviolet; font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">40 Best Travel Jobs</h5>
+              <p class="head1-text" style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;">List of travel friendly jobs that allow you to work from abroad</p>
+              
+             
+            </div>
+        
+
+            <div class="box">
+       
+              
+          
+              
+              <img  src="https://www.somtoseeks.com/wp-content/uploads/2018/07/Get-Paid-To-Travel-The-Business-of-Travel-Blogging.jpg" height="300px" class="himg3" alt="...">
+            
+              <BR></BR>
+              
+                <h5 class="head3-title" style="color: blueviolet; font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">How I Get Paid To Travel</h5>
+                <p class="head1-text" style="font-size: larger; font-family: Verdana, Geneva, Tahoma, sans-serif;">The many different ways I make money while traveling.</p>
+                
+              </div>
+            </div>
+         
+
+
+      
+</div>
+<hr>
+<div class="video">
+    <h1>TRAVEL VIDEOS FROM AROUND THE WORLD</h1>
+    
+    <h4>Follow My Adventures on YouTube</h4>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ndzvsG6-fTw?si=IOD8MkbpadnUmBpj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<button class="btn2">READ THE STORY HERE---></button>
+</div>
+<hr>
+<!-- footer
+<footer class="bg-body-tertiary text-center">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Images -->
+    <section class="">
+      <div class="row">
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div data-mdb-ripple-init
+            class="bg-image hover-overlay shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div data-mdb-ripple-init
+            class="bg-image hover-overlay shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/111.webp" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div data-mdb-ripple-init
+            class="bg-image hover-overlay shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/112.webp" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div data-mdb-ripple-init
+            class="bg-image hover-overlay shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/114.webp" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div data-mdb-ripple-init
+            class="bg-image hover-overlay shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/115.webp" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div data-mdb-ripple-init
+            class="bg-image hover-overlay shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/116.webp" class="w-100" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Images -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2020 Copyright:
+    <a class="text-body" href="https://mdbootstrap.com/">Expert Vagabond | Adventure Travel & Photography Blog</a>
+  </div>
+  <!-- Copyright -->
+  
+</footer>
+
+
+
+
+</body>
+</html>
